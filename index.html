@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pengaman PT JAWIR</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top, #0f2027, #000);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+  animation: fadeIn 1.5s ease;
+}
+
+.profile {
+  width: 110px;
+  border-radius: 50%;
+  border: 3px solid #00f7ff;
+  box-shadow: 0 0 20px #00f7ff;
+}
+
+h1 {
+  margin: 15px 0 5px;
+  font-size: 26px;
+}
+
+p {
+  opacity: 0.7;
+  margin-bottom: 25px;
+}
+
+.link {
+  display: block;
+  width: 85%;
+  max-width: 320px;
+  margin: 12px auto;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid #00f7ff;
+  box-shadow: 0 0 10px #00f7ff;
+  transition: 0.3s;
+}
+
+.link:hover {
+  transform: scale(1.05);
+  background: #00f7ff;
+  color: black;
+  box-shadow: 0 0 25px #00f7ff;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+  
+  <img src="https://via.placeholder.com/150" class="profile">
+  
+  <h1>PENGAMAN PT JAWIR</h1>
+  <p>🔒 Trusted Pengaman | Fast Respon | Anti Scam</p>
+
+  <a href="https://wa.me+6285385499071" class="link">💬 Chat Admin</a>
+  <a href="#" class="link">💰 List Harga</a>
+  <a href="https://chat.whatsapp.com/CenJoKCrebCIynOO8tsgKF?mode=gi_t" class="link">📢 Grup Utama</a>
+  <a href="#" class="link">⭐ Testimoni</a>
+  <a href="https://wa.me+6285385499071" class="link">🔥 Order Sekarang</a>
+
+  <div class="footer">
+    © 2026 Jawir Pengaman
+  </div>
+
+</div>
+
+<audio autoplay loop id="music">
+  <source src="Kicau.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.addEventListener("click", function() {
+  document.getElementById("music").play();
+});
+</script>
+
+</body>
+</html>
